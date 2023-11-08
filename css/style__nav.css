@@ -1,0 +1,44 @@
+header, .navbar{
+    background-color: #DBE0F8;
+    border-bottom: solid gray 1px;
+    box-shadow: 0px 1px 50px rgba(0,0,0,0.15);
+}
+
+#nav-container{
+    padding-top: 0;
+    padding-bottom: 0;
+    
+}
+
+.container{
+    padding: 70px 0;
+}
+
+
+.navbar .botoes a:after{
+    display:block;
+    content: '';
+    border-bottom: solid 3px black;  
+    transform: scaleX(0);  
+    transition: transform 250ms ease-in-out;
+    height: 35%;
+    border-radius: 3px;
+    
+}
+
+.navbar .botoes a:hover:after{
+    transform: scaleX(1);
+}
+
+.doar{
+    background-color: orange;
+    text-decoration: none;
+    color: black;
+    position: relative;
+    left: -50px;
+    font-size: 35px;
+    width: 150px;
+    text-align: center;
+    margin: 0;
+    border-radius: 50px;
+}
