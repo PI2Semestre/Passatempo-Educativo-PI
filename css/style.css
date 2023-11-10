@@ -17,3 +17,22 @@ font-size: 20px;
 .bolha #texto{
     font-size: 50px;
 }
+
+.container-com-borda-arredondada {
+    border: 2px solid #000; /* Cor e espessura da borda */
+    border-radius: 10px; /* Raio do arredondamento */
+    background-color: rgba(173,216,230);
+    
+}
+
+
+.img, .p{
+    display: inline-block;
+    align-items: center;   
+}
+
+#menu{
+   position: fixed; 
+   top:0;
+   width:100%;
+}
