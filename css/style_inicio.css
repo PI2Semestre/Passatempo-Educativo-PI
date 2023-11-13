@@ -16,23 +16,48 @@
     
 }
 
-.circle {
-    width: 20%; /* Tamanho relativo */
-    padding-bottom: 20%; /* Mantém a altura igual à largura para fazer um círculo */
-    background-color: #3498db; /* Cor de fundo do círculo */
-    border-radius: 50%; /* Torna o elemento redondo */
-    display: inline-block;
-    position: relative;
-    text-align: center;
-  }
-  
-.circle-content {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    color: #fff; /* Cor do texto */
-  }
+.container-circulos {
+    display: flex;
+    justify-content: space-around;
+}
+
+.circleB {
+    width: 15vw;
+    height: 15vw;
+    border-radius: 50%; /* Define a forma do círculo */
+    background-color: #DBE0F8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center ;
+    font-size: 1.5vw;
+
+}
+
+.circleR {
+    width: 15vw;
+    height: 15vw;
+    border-radius: 50%; /* Define a forma do círculo */
+    background-color:#E87377;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center ;
+    font-size: 1.5vw;
+    
+}
+
+.circleY {
+    width: 15vw;
+    height: 15vw;
+    border-radius: 50%; /* Define a forma do círculo */
+    background-color: #FFF19A;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center ;
+    font-size: 1.5vw;
+}
 
 .container-post{
     align-items: center;
