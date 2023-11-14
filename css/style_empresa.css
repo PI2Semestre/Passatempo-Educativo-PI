@@ -1,7 +1,7 @@
 .titulo_empresa{
     color: #004AAD;
     text-align: center;
-    margin: 50px;
+    
 }
 
 .texto-beneficios{
@@ -10,7 +10,25 @@
 
 .container-arredondado-azul{
     border: 2px solid #004AAD; /* Cor e espessura da borda */
-    border-radius: 10px; /* Raio do arredondamento */
+    border-radius: 50px; /* Raio do arredondamento */
     background-color: #DBE0F8;
-    padding: 100px;
+    padding: 4vw;
+    margin: 5vw;
 }
+
+.texto-projetos-empresas{
+    vertical-align: middle;
+    text-align: center;
+    align-items: center;
+    font-size: 1.3vw;
+    display:flex;
+}
+
+.container-arredondado-vermelho{
+    border: 2px solid #F6989C; /* Cor e espessura da borda */
+    border-radius: 50px; /* Raio do arredondamento */
+    background-color: #F6989C;
+    padding: 4vw;
+    margin: 5vw;
+}
+
