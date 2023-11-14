@@ -1,0 +1,16 @@
+.titulo_empresa{
+    color: #004AAD;
+    text-align: center;
+    margin: 50px;
+}
+
+.texto-beneficios{
+    color: #ED1218;
+}
+
+.container-arredondado-azul{
+    border: 2px solid #004AAD; /* Cor e espessura da borda */
+    border-radius: 10px; /* Raio do arredondamento */
+    background-color: #DBE0F8;
+    padding: 100px;
+}
