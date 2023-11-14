@@ -90,18 +90,24 @@
     border-radius: 10px; /* Raio do arredondamento */
     background-color: #FFF6BF;
     align-items: center;
-    margin: 100px;
+    margin-left: 10vw;
+    margin-right: 10vw;
+    margin-top: 5vw;
+    margin-bottom: 5vw;
+    padding: 4vw;
+    /* como fazer o container manter seu formato "6 e 6" */
+    
 }
+
 
 .texto-inicio{
     vertical-align: middle;
     text-align: center;
     align-items: center;
-    font-size: 13px;
-    display:flex;
+    font-size: 2vw;
 }
 
-.container img{
+.container-img{
     text-align: center;
     display: block;
     margin: 0 auto;
@@ -111,3 +117,4 @@
     width: 80%;
     
 }
+
