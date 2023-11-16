@@ -1,11 +1,14 @@
 .titulo__proj{
     color: red;
     text-align: center;
-    margin: 50px;
+    font-size: 3vw;
 }
 
 .info p{
     text-align: center;
+    font-size: 1.5vw;
+    vertical-align: middle;
+    align-items: center;
 }
 
 .cb1{
