@@ -1,3 +1,4 @@
+/* barra manu */
 header, .navbar{
     background-color: #DBE0F8;
     border-bottom: solid gray 1px;
@@ -11,7 +12,7 @@ header, .navbar{
 }
 
 .container{
-    padding: 70px 0;
+    padding: 4vw 0;
 }
 
 
@@ -26,19 +27,30 @@ header, .navbar{
     
 }
 
+.nav-item {
+    margin-right: 1.2vw;
+    margin-left: 1.2vw;
+    font-size: 1.3vw;
+    font-family: 'Bree Serif', sans-serif ;
+}
+
+
 .navbar .botoes a:hover:after{
     transform: scaleX(1);
 }
 
 .doar{
-    background-color: orange;
+    background-color: #ED1218;
     text-decoration: none;
-    color: black;
+    color: white;
+    border: 0.5vw transparent;
     position: relative;
-    left: -50px;
-    font-size: 35px;
-    width: 150px;
+    left: -2vw;
+    font-size: 15px;
+    font-family: 'Open Sans', sans-serif;
+    width: 80px;
+    height: 45px;
     text-align: center;
-    margin: 0;
-    border-radius: 50px;
+    margin-left: 1vw;
+    border-radius: 25px;
 }

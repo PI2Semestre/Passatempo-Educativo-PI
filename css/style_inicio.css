@@ -1,3 +1,10 @@
+/* Open Sans */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;500&display=swap');
+
+/* Bree Serif */
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Open+Sans:wght@300;500&display=swap');
+
+
 .container-inicio{
     border: 2px solid #FFF19A; /* Cor e espessura da borda */
     border-radius: 10px; /* Raio do arredondamento */
@@ -21,6 +28,7 @@
     color: red;
     text-align: center;
     font-size: 3vw;
+    font-family: 'Bree Serif', sans-serif;
 }
 
 .texto-inicio{
@@ -28,6 +36,7 @@
     text-align: center;
     align-items: center;
     font-size: 1.5vw;
+    
 }
 
 .circleR {
@@ -40,6 +49,7 @@
     align-items: center;
     text-align: center ;
     font-size: 1.5vw;
+    font-family: 'Bree Serif', sans-serif;
     
 }
 
@@ -53,31 +63,9 @@
     align-items: center;
     text-align: center ;
     font-size: 1.5vw;
+    font-family: 'Bree Serif', sans-serif;
 }
 
-
-
-.cb2{
-    background-color: #DBE0F8;
-    border-bottom-left-radius: 0.375rem;
-    border-bottom-right-radius: 0.375rem;
-    border: var(--bs-card-border-width) solid var(--bs-card-border-color);;
-}
-
-.titulo-mvv{
-    color: #004AAD;
-    text-align: center;
-    font-size: 2.5vw;
-}
-
-.texto-card{
-    font-size: 1.3vw;
-}
-
-.container-circulos {
-    display: flex;
-    justify-content: space-around;
-}
 
 .circleB {
     width: 15vw;
@@ -89,7 +77,35 @@
     align-items: center;
     text-align: center ;
     font-size: 1.5vw;
+    font-family: 'Bree Serif', sans-serif;
 
+}
+
+
+
+
+.cb2{
+    background-color: #DBE0F8;
+    border-bottom-left-radius: 0.375rem;
+    border-bottom-right-radius: 0.375rem;
+    border: var(--bs-card-border-width) solid var(--bs-card-border-color);
+}
+
+.titulo-mvv{
+    color: #004AAD;
+    text-align: center;
+    font-size: 2.5vw;
+    font-family: 'Bree Serif', sans-serif;
+}
+
+.texto-card{
+    font-size: 1.3vw;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.container-circulos {
+    display: flex;
+    justify-content: space-around;
 }
 
 
@@ -110,6 +126,7 @@
     vertical-align: middle;
     font-size: 1.3vw;
     display:flex;
+    font-family: 'Open Sans', sans-serif;
 }
 
 .container-video{
@@ -117,6 +134,7 @@
     border-radius: 10px; /* Raio do arredondamento */
     background-color: #F6989C;
     margin-inline: 2vw;
+    
     
 }
 

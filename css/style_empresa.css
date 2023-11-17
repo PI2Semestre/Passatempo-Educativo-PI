@@ -1,18 +1,27 @@
+/* Open Sans */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;500&display=swap');
+
+/* Bree Serif */
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Open+Sans:wght@300;500&display=swap');
+
 .titulo_empresa_azul{
     color: #004AAD;
     text-align: center;
     font-size: 3vw;
+    font-family: 'Bree Serif', sans-serif;
 }
 .titulo_empresa_vermelho{
     color: #ED1218;
     text-align: center;
     font-size: 3vw;
+    font-family: 'Bree Serif', sans-serif;
 }
 
 
 .texto-beneficios{
     color: #ED1218;
     font-size: 1.3vw;
+    font-family: 'Bree Serif', sans-serif;
 }
 
 .container-arredondado-azul{
@@ -33,6 +42,8 @@
     text-align: center;
     align-items: center;
     font-size: 1.3vw;
+    font-family: 'Bree Serif', sans-serif;
+
 }
 
 .container-arredondado-vermelho{
