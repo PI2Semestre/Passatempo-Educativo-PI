@@ -1,0 +1,62 @@
+/* Open Sans */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;500&display=swap');
+
+/* Bree Serif */
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Open+Sans:wght@300;500&display=swap');
+
+.titulo_empresa_azul{
+    color: #004AAD;
+    text-align: center;
+    font-size: 3vw;
+    font-family: 'Bree Serif', sans-serif;
+}
+.titulo_empresa_vermelho{
+    color: #ED1218;
+    text-align: center;
+    font-size: 3vw;
+    font-family: 'Bree Serif', sans-serif;
+}
+
+
+.texto-beneficios{
+    color: #ED1218;
+    font-size: 1.3vw;
+    font-family: 'Bree Serif', sans-serif;
+}
+
+.container-arredondado-azul{
+    border: 2px solid #004AAD; /* Cor e espessura da borda */
+    border-radius: 50px; /* Raio do arredondamento */
+    background-color: #DBE0F8;
+    padding: 4vw;
+    align-items: center;
+    margin-left: 10vw;
+    margin-right: 10vw;
+    margin-top: 5vw;
+    margin-bottom: 5vw;
+    padding: 4vw;
+}
+
+.texto-projetos-empresas{
+    vertical-align: middle;
+    text-align: center;
+    align-items: center;
+    font-size: 1.3vw;
+    font-family: 'Bree Serif', sans-serif;
+
+}
+
+.container-arredondado-vermelho{
+    border: 2px solid #ED1218; /* Cor e espessura da borda */
+    border-radius: 50px; /* Raio do arredondamento */
+    background-color: #F6989C;
+    padding: 4vw;
+    align-items: center;
+    margin-left: 10vw;
+    margin-right: 10vw;
+    margin-top: 5vw;
+    margin-bottom: 5vw;
+    padding: 4vw;
+}
+
+

@@ -1,0 +1,10 @@
+
+/* Open Sans */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;500&display=swap');
+
+/* Bree Serif */
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Open+Sans:wght@300;500&display=swap');
+
+.imagem-topo{
+    padding-top: 72px;
+}
