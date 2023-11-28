@@ -138,4 +138,39 @@
     
 }
 
+.container-depoimentosY{
+    border: 2px solid #FFF19A; /* Cor e espessura da borda */
+    border-radius: 10px; /* Raio do arredondamento */
+    background-color: #FFF6BF;
+    align-items: center;
+    margin-left: 10vw;
+    margin-right: 50vw;
+    margin-top: 5vw;
+    margin-bottom: 5vw;
+    padding: 1vw;
+}
 
+
+.container-depoimentosB{
+    border: 2px solid #DBE0F8; /* Cor e espessura da borda */
+    border-radius: 10px; /* Raio do arredondamento */
+    background-color: #DBE0F8;
+    align-items: center;
+    margin-left: 50vw;
+    margin-right: 10vw;
+    margin-top: 5vw;
+    margin-bottom: 5vw;
+    padding: 1vw;
+}
+
+.container-depoimentosR{
+    border: 2px solid #E87377; /* Cor e espessura da borda */
+    border-radius: 10px; /* Raio do arredondamento */
+    background-color: #E87377;
+    align-items: center;
+    margin-left: 10vw;
+    margin-right: 50vw;
+    margin-top: 5vw;
+    margin-bottom: 5vw;
+    padding: 1vw;
+}
