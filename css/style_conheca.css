@@ -1,0 +1,26 @@
+.texto-reconhecimento{
+    font-size: 1rem;
+    font-family: 'Bree Serif', sans-serif;
+}
+
+.container-arredondado-brancoEcinza{
+    border: 2px solid #BBB9B9; /* Cor e espessura da borda */
+    border-radius: 50px; /* Raio do arredondamento */
+    background-color: #FFFFFF;
+    padding: 4vw;
+    align-items: center;
+    margin-left: 10vw;
+    margin-right: 10vw;
+    margin-top: 5vw;
+    margin-bottom: 5vw;
+    padding: 4vw;
+}
+
+.texto-certificados{
+    vertical-align: middle;
+    text-align: center;
+    align-items: center;
+    font-size: 1.5rem;
+    font-family: 'Bree Serif', sans-serif;
+
+}
