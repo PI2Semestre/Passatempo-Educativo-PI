@@ -1,0 +1,10 @@
+/* Bree Serif */
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Open+Sans:wght@300;500&display=swap');
+
+.titulo_apadrinhe{
+    padding-bottom: 1.5em;
+}
+
+#texto-fonte{
+    font-family: 'Bree Serif', serif;
+}

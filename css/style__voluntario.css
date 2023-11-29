@@ -4,3 +4,55 @@
     color: #FDDA03;
     font-size: 70px;
 }
+
+.container-arredondado-azul{
+    border: 2px solid #004AAD; /* Cor e espessura da borda */
+    border-radius: 50px; /* Raio do arredondamento */
+    background-color: #DBE0F8;
+    padding: 4vw;
+    align-items: center;
+    margin-left: 10vw;
+    margin-right: 10vw;
+    margin-top: 5vw;
+    margin-bottom: 5vw;
+    padding: 4vw;
+}
+
+.titulo_empresa_azul{
+    color: red;
+    text-align: center;
+    font-size: 3vw;
+    font-family: 'Bree Serif', sans-serif;
+}
+
+.texto-beneficios{
+    color: #ED1218;
+    font-size: 1.3vw;
+    font-family: 'Bree Serif', sans-serif;
+}
+
+.container-arredondado-azul{
+    border: 2px solid #c4b44b; /* Cor e espessura da borda */
+    border-radius: 50px; /* Raio do arredondamento */
+    background-color: #FFF19A;
+    padding: 4vw;
+    align-items: center;
+    margin-left: 10vw;
+    margin-right: 10vw;
+    margin-top: 5vw;
+    margin-bottom: 5vw;
+    padding: 4vw;
+}
+
+.texto-projetos-empresas{
+    vertical-align: middle;
+    text-align: center;
+    align-items: center;
+    font-size: 1.3vw;
+    font-family: 'Bree Serif', sans-serif;
+
+}
+
+.formulario-nomes{
+    font-size: 10rem;
+}

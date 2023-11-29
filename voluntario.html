@@ -21,7 +21,7 @@
               <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0 botoes">
                   <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                    <a class="nav-link" href="index.html">Home</a>
                   </li>
                   <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
@@ -41,10 +41,10 @@
                     <a class="nav-link" href="curso_prof.html">Cursos</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="voluntario.html">Voluntariado</a>
+                    <a class="nav-link" aria-current="page" href="voluntario.html">Voluntariado</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="apadrinhe.html">Apadrinhe uma Escola</a>
+                    <a class="nav-link active" href="apadrinhe.html">Apadrinhe uma Escola</a>
                   </li>
                   <li class="nav-item">
                     <a class="nav-link" href="empresa_feliz.html">Empresa Feliz</a>
@@ -52,13 +52,109 @@
                 </ul>
               </div>
               <button class="doar">
-                <a class="nav-link" href="voluntario.html">Doar</a>
+                <a class="nav-link" href="doar.html">Doar</a>
               </button>
             </div>
           </nav>
     </header>
+    <div>
+      <img src="imagens/voluntariado.png" alt="Jovens segurando cartas" width="100%" class="img-fluid">
+    </div>
     <div class="container">
       <h1 class="titulo__voluntario"><p class="text-wrap">VENHA FAZER PARTE DESSA FAMÍLIA!</p></h1>
     </div>
+    <div class="container-arredondado-azul">
+      <form>
+        <div class="titulo_empresa_azul">Identificação</div>
+        <div class="form-group">
+          <label>
+            <h3>
+              nome <span style="color: red" > * </span>
+            </h3>
+          </label>
+          <input type="nome" class="form-control" placeholder="insira seu nome">
+        </div>
+
+        <div class="form-group">
+          <label>
+            <h3>
+              email <span style="color: red" > * </span>
+            </h3>
+          </label>
+          <input type="email" class="form-control" placeholder="email@exemplo.com">
+        </div>
+        <div class="form-group">
+          <label>
+            <h3>
+              telefone <span style="color: red" > * </span>
+            </h3>
+          </label>
+          <input type="telefone" class="form-control" placeholder="(XX)XXXXX-XXXX">
+        </div>
+        
+        <div class="titulo_empresa_azul">Localização</div>
+        <div class="form-group">
+          <label>
+            <h3>
+              cidade <span style="color: red" > * </span>
+            </h3>
+          </label>
+          <input type="cidade" class="form-control" placeholder="insira sua cidade">
+        </div>
+        <div class="form-group">
+          <label>
+            <h3>
+              endereço <span style="color: red" > * </span>
+            </h3>
+          </label>
+          <input type="nome" class="form-control" placeholder="insira seu nome">
+        </div>
+        <div class="titulo_empresa_azul">Mensagem</div>
+        <div class="form-group">
+          <textarea class="form-control" id="exampleFormControlTextarea1" rows="6" placeholder="se desejar, insira uma mensagem"></textarea>
+        </div>
+        <label style="color: red" > 
+          <h3>
+            *Campos de preenchimento obrigatório
+          </h3>
+          
+        </label>
+      </form>
+      <button type="submit" class="btn btn-primary">Enviar</button>
+    </div>
+    <footer style="border-top: solid 2px; padding: 4em;" >
+      <div class="row">
+          <div class="col-6" style="text-align: center;">
+
+              <img src="imagens/logoPassatempo.jpg" alt="Logo da Passatempo Educativo" style="padding-bottom: 2em;">
+              <h4 class="d-flex justify-content-center" style="color: #004AAD; padding-bottom: 3em;">Com o objetivo de oferecer oportunidades de inserção e integração social e profissional, a ONG Passatempo Educativo  impacta na vida de crianças, adolescentes e adultos.</h4>
+              <div class="row" style="padding-bottom: 3em;">
+                  <div class="col-3" style="text-align: center;">
+                      <a href="https://www.facebook.com/Passatempoedu/?locale=pt_BR" target="_blank"><img src="imagens/face.png" alt="Icone Facebook" style="height: 5em;"></a>
+                  </div>
+                  <div class="col-3" style="text-align: center;">
+                      <a href="https://www.linkedin.com/company/passatempo-educativo/?originalSubdomain=br" target="_blank"><img src="imagens/linkedin.png" alt="Icone Facebook" style="height: 5em;"></a>
+                  </div>
+                  <div class="col-3" style="text-align: center;">
+                      <a href="https://www.youtube.com/channel/UCmjjEtnmVvDNJAkpQmU6gUA" target="_blank"><img src="imagens/youtube.png" alt="Icone Facebook" style="height: 5em;"></a>
+                  </div>
+                  <div class="col-3" style="text-align: center;">
+                      <a href="https://www.instagram.com/passatempoeducativo/" target="_blank"><img src="imagens/insta.png" alt="Icone Facebook" style="height: 5em;"></a>
+                  </div>
+              </div>
+              &copy; 2023 passatempo Educativo.org.br
+          </div>
+          <div class="col-6" style="text-align: center;">
+              <h1 style="color: red; padding-bottom: 1em;">Faça parte:</h1>
+              <h4><a href="projetos.html" style="color: black;">Projetos</a></h4>
+              <h4><a href="empresa_feliz.html" style="color: black;">Empresa Feliz</a></h4>
+              <h4><a href="curso_prof.html" style="color: black;">Curso Professores</a></h4>
+              <h4><a href="doar.html" style="color: black;">Doar</a></h4>
+              <h1 style="color: red; padding: 1em;">Contato:</h1>
+              <h4 style="color: gray;">e-mail: passatempo@passatempoeducativo.org.br</h4>
+              <h4 style="color: gray;">WhatsApp: (11) 9 9757-9540</h4>
+          </div>
+      </div>
+  </footer>
   </body>
 </html>
