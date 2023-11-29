@@ -16,7 +16,7 @@ header, .navbar{
 }
 
 
-.navbar .botoes a:after{
+.navbar .botoes .borda:after{
     display:block;
     content: '';
     border-bottom: solid 3px black;  
@@ -35,7 +35,7 @@ header, .navbar{
 }
 
 
-.navbar .botoes a:hover:after{
+.navbar .botoes .borda:hover:after{
     transform: scaleX(1);
 }
 
@@ -53,4 +53,14 @@ header, .navbar{
     text-align: center;
     margin-left: 1vw;
     border-radius: 25px;
+}
+
+@media screen and (min-width:992px){
+    .dropdown:hover .dropdown-menu{
+        display: block;
+        margin-top: 0;
+    }
+    .dropdown .dropdown-menu{
+        display: none;
+    }
 }
