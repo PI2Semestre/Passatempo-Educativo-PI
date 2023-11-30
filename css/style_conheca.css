@@ -15,12 +15,24 @@
     margin-bottom: 5vw;
     padding: 4vw;
 }
+.container-arredondado-amarelo{
+    border: 2px solid #FFF19A; /* Cor e espessura da borda */
+    border-radius: 50px; /* Raio do arredondamento */
+    background-color: #FFF19A;
+    padding: 4vw;
+    align-items: center;
+    margin-left: 20vw;
+    margin-right: 20vw;
+    margin-top: 5vw;
+    margin-bottom: 5vw;
+    padding: 4vw;
+}
 
 .texto-certificados{
     vertical-align: middle;
     text-align: center;
     align-items: center;
-    font-size: 1.5rem;
+    font-size: 1.5vw;
     font-family: 'Bree Serif', sans-serif;
 
 }

@@ -30,8 +30,8 @@
     background-color: #DBE0F8;
     padding: 4vw;
     align-items: center;
-    margin-left: 10vw;
-    margin-right: 10vw;
+    margin-left: 20vw;
+    margin-right: 20vw;
     margin-top: 5vw;
     margin-bottom: 5vw;
     padding: 4vw;
@@ -52,14 +52,15 @@
     background-color: #F6989C;
     padding: 4vw;
     align-items: center;
-    margin-left: 10vw;
-    margin-right: 10vw;
+    margin-left: 20vw;
+    margin-right: 20vw;
     margin-top: 5vw;
     margin-bottom: 5vw;
     padding: 4vw;
 }
 
 
+
 .formulario-nomes{
-    font-size: 10rem;
+    font-size: 6vw;
 }
