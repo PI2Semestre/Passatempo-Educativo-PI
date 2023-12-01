@@ -14,7 +14,7 @@
     margin-right: 10vw;
     margin-top: 5vw;
     margin-bottom: 5vw;
-    padding: 4vw;
+    /* padding: 4vw; */
     /* como fazer o container manter seu formato "6 e 6" */
     
 }
@@ -48,7 +48,7 @@
     justify-content: center;
     align-items: center;
     text-align: center ;
-    font-size: 1.5vw;
+    font-size: 1.3vw;
     font-family: 'Bree Serif', sans-serif;
     
 }
@@ -62,7 +62,7 @@
     justify-content: center;
     align-items: center;
     text-align: center ;
-    font-size: 1.5vw;
+    font-size: 1.3vw;
     font-family: 'Bree Serif', sans-serif;
 }
 
@@ -76,7 +76,7 @@
     justify-content: center;
     align-items: center;
     text-align: center ;
-    font-size: 1.5vw;
+    font-size: 1.3vw;
     font-family: 'Bree Serif', sans-serif;
 
 }
@@ -89,6 +89,7 @@
     border-bottom-left-radius: 0.375rem;
     border-bottom-right-radius: 0.375rem;
     border: var(--bs-card-border-width) solid var(--bs-card-border-color);
+    /* height: 22em; */
 }
 
 .titulo-mvv{
@@ -106,6 +107,7 @@
 .container-circulos {
     display: flex;
     justify-content: space-around;
+    margin: 5vw;
 }
 
 
@@ -115,8 +117,6 @@
     max-width: 80vw;
     margin-left: 10vw;
     margin-right: 10vw;
-    margin-top: 5vw;
-    margin-bottom: 5vw;
     padding: 4vw;
     border-color:#F6989C ;
     display: center;
