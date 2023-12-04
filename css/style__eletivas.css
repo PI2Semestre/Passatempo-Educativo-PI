@@ -1,0 +1,22 @@
+/* Bree Serif */
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Open+Sans:wght@300;500&display=swap');
+
+.titulo__eletiva{
+    color: red;
+    text-align: center;
+    font-size: 3vw;
+    font-family: 'Bree Serif', sans-serif;
+    padding: 2em;
+}
+
+.eletiva1{
+    font-family: 'Bree Serif', serif;
+    background-color: #DBE0F8;
+    border-radius: 50px;
+}
+
+.eletiva2{
+    font-family: 'Bree Serif', serif;
+    background-color: #F6989C;
+    border-radius: 50px;
+}

@@ -30,7 +30,8 @@ header, .navbar{
 .nav-item {
     margin-right: 1.2vw;
     margin-left: 1.2vw;
-    font-size: 1.3vw;
+    font-size: 1.3em;
+    text-align: center;
     font-family: 'Bree Serif', sans-serif ;
 }
 
@@ -44,15 +45,17 @@ header, .navbar{
     text-decoration: none;
     color: white;
     border: 0.5vw transparent;
-    position: relative;
-    left: -2vw;
+    position: relative;    
     font-size: 15px;
     font-family: 'Open Sans', sans-serif;
-    width: 80px;
+    min-width: 80px;
     height: 45px;
     text-align: center;
     margin-left: 1vw;
     border-radius: 25px;
+    justify-content: center;
+    flex-grow: 0 !important;
+    max-width: 80px;
 }
 
 @media screen and (min-width:992px){
@@ -71,3 +74,4 @@ header, .navbar{
     height: 83%;
     border-radius: 3px;
 }
+
