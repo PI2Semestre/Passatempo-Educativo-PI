@@ -124,18 +124,15 @@
 
 .texto-post{
     vertical-align: middle;
-    font-size: 1.3vw;
+    font-size: 1.1vw;
     display:flex;
     font-family: 'Open Sans', sans-serif;
 }
 
 .container-video{
-    border: 2px solid #E87377; /* Cor e espessura da borda */
     border-radius: 10px; /* Raio do arredondamento */
     background-color: #F6989C;
     margin-inline: 2vw;
-    
-    
 }
 
 .container-depoimentosY{
@@ -145,9 +142,9 @@
     align-items: center;
     margin-left: 10vw;
     margin-right: 50vw;
-    margin-top: 5vw;
+    
     margin-bottom: 5vw;
-    padding: 1vw;
+    padding-left: 1vw;
 }
 
 
