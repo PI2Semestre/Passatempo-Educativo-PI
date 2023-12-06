@@ -28,9 +28,9 @@ header, .navbar{
 }
 
 .nav-item {
-    margin-right: 1.2vw;
-    margin-left: 1.2vw;
-    font-size: 1.3em;
+    margin-right: 0.5vw;
+    margin-left: 0.5vw;
+    
     text-align: center;
     font-family: 'Bree Serif', sans-serif ;
 }
