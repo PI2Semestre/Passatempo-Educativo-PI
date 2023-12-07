@@ -4,7 +4,7 @@
 .titulo__eletiva{
     color: red;
     text-align: center;
-    font-size: 3vw;
+    
     font-family: 'Bree Serif', sans-serif;
     padding: 2em;
 }
@@ -19,4 +19,29 @@
     font-family: 'Bree Serif', serif;
     background-color: #F6989C;
     border-radius: 50px;
+}
+
+.botao_eletiva{
+    background-color: #ED1218;
+    text-decoration: none;
+    color: white;
+    border: 0.5vw transparent;
+    position: relative;
+    font-size: 15px;
+    font-family: 'Open Sans', sans-serif;
+    width: 40em;
+    height: auto;
+    text-align: center;
+    margin-left: 1vw;
+    border-radius: 25px;
+    justify-content: center;
+    flex-grow: 0 !important;
+    margin: 10%;
+    padding: 0.2em;
+}
+
+.container-botao{
+    display: flex;  
+    justify-content: center;  
+    align-items: center;  
 }

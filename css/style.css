@@ -26,3 +26,10 @@
     padding-bottom: 5%;
     font-size: 1.5vw;
 }
+
+html, body {
+    overflow-x: hidden;
+  }
+  body {
+    position: relative
+  }
